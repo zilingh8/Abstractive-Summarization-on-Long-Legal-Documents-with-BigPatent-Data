@@ -7,7 +7,7 @@ There are two types of summarization abstractive versus extractive. Extractive s
 The BigPatent dataset was assembled for abstractive summarization and this project focuses on exploring if the quality of abstractive summaries can be improved by using extractive techniques like TFIDF, cosine similarity before passing on to a T5 model for abstractive summarization.
 The baseline model for comparison is the SOTA Big Bird Pegasus model which excels at abstractive summarization on long documents.
 
-Evaluation of performance was done using Rouge1,2,L and QuestEval.
+Evaluation of performance was done using Rouge-1, 2, L and QuestEval.
 
 For discussion and access to view my code in google colaboratory, please private message me on linkedin.
 
